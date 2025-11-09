@@ -1,0 +1,65 @@
+{
+  "jarvis": {
+    "BG_COLOR": [ 15, 20, 40 ],
+    "PRIMARY_COLOR": [ 0, 255, 255 ],
+    "SECONDARY_COLOR": [ 0, 150, 150 ],
+    "INPUT_TEXT_COLOR": [ 200, 255, 255 ],
+    "FONT_TITLE": [ "segoeuithis.ttf", 50 ],
+    "FONT_RESPONSE": [ "segoeuithis.ttf", 24 ],
+    "FONT_INPUT": [ "segoeuithis.ttf", 28 ]
+  },
+  "fallback": {
+    "BG_COLOR": [ 0, 43, 54 ],
+    "PRIMARY_COLOR": [ 38, 139, 210 ],
+    "SECONDARY_COLOR": [ 133, 153, 173 ],
+    "INPUT_TEXT_COLOR": [ 147, 161, 161 ],
+    "FONT_TITLE": [ "Consolas", 50 ],
+    "FONT_RESPONSE": [ "Calibri", 22 ],
+    "FONT_INPUT": [ "Calibri", 28 ]
+  },
+  "odyssey": {
+    "BG_COLOR": [ 10, 15, 25 ],
+    "PRIMARY_COLOR": [ 220, 220, 255 ],
+    "SECONDARY_COLOR": [ 100, 180, 220 ],
+    "INPUT_TEXT_COLOR": [ 200, 200, 255 ],
+    "FONT_TITLE": [ "Lucida Console", 50 ],
+    "FONT_RESPONSE": [ "Consolas", 22 ],
+    "FONT_INPUT": [ "Consolas", 28 ]
+  },
+  "matrix": {
+    "BG_COLOR": [ 0, 0, 0 ],
+    "PRIMARY_COLOR": [ 0, 255, 70 ],
+    "SECONDARY_COLOR": [ 0, 150, 50 ],
+    "INPUT_TEXT_COLOR": [ 200, 255, 200 ],
+    "FONT_TITLE": [ "Courier New", 50 ],
+    "FONT_RESPONSE": [ "Courier New", 22 ],
+    "FONT_INPUT": [ "Courier New", 28 ]
+  },
+  "pergament": {
+    "BG_COLOR": [ 245, 245, 220 ],
+    "PRIMARY_COLOR": [ 80, 45, 30 ],
+    "SECONDARY_COLOR": [ 120, 80, 70 ],
+    "INPUT_TEXT_COLOR": [ 50, 25, 15 ],
+    "FONT_TITLE": [ "Garamond", 55 ],
+    "FONT_RESPONSE": [ "Georgia", 22 ],
+    "FONT_INPUT": [ "Georgia", 28 ]
+  },
+  "cyberpunk": {
+    "BG_COLOR": [ 20, 20, 30 ],
+    "PRIMARY_COLOR": [ 255, 0, 150 ],
+    "SECONDARY_COLOR": [ 100, 0, 100 ],
+    "INPUT_TEXT_COLOR": [ 255, 200, 200 ],
+    "FONT_TITLE": [ "Orbitron", 50 ],
+    "FONT_RESPONSE": [ "Roboto Mono", 22 ],
+    "FONT_INPUT": [ "Roboto Mono", 28 ]
+  },
+  "synthwave": {
+    "BG_COLOR": [ 29, 20, 40 ],
+    "PRIMARY_COLOR": [ 255, 0, 191 ],
+    "SECONDARY_COLOR": [ 0, 217, 255 ],
+    "INPUT_TEXT_COLOR": [ 255, 255, 255 ],
+    "FONT_TITLE": [ "Impact", 50 ],
+    "FONT_RESPONSE": [ "Arial", 22 ],
+    "FONT_INPUT": [ "Arial", 28 ]
+  }
+}

@@ -1,0 +1,2410 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo",
+        "Wie geht's?",
+        "Sali",
+        "Hey",
+        "Alles klar?",
+        "Gruezi",
+        "Servus",
+        "Tag",
+        "Grüß Gott",
+        "Gruss",
+        "Guten Abend Jarvis",
+        "Hallo mein Freund",
+        "Guten Tag",
+        "Schoenen Abend noch",
+        "Jarvis bist du da",
+        "Moin",
+        "Hi",
+        "Na du",
+        "Gruezli",
+        "Guten Morgen",
+        "Wie laeuft's?",
+        "Sei gegruesst",
+        "Schoenen Tag",
+        "Was geht ab?",
+        "Guten Morgen Jarvis",
+        "Hallo Jarvis",
+        "Guten Abend",
+        "Schoenen guten Tag"
+      ],
+      "responses": [
+        "Hallo!",
+        "Guten Tag!",
+        "Moin Moin!",
+        "Ich bin hier und einsatzbereit.",
+        "Grüß dich!",
+        "Hi, wie kann ich helfen?",
+        "Servus, wie kann ich dienen?",
+        "Guten Morgen!",
+        "Alles bestens, was kann ich fuer dich tun?",
+        "Guten Abend!",
+        "Schön, dass du da bist."
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "Was bedeutet Calia?",
+        "Was ist deine Funktion?",
+        "Stell dich bitte vor",
+        "Wie ist dein Name?",
+        "Wer bist du?",
+        "Mit wem spreche ich?"
+      ],
+      "responses": [
+        "Mein Name ist Calia. Das ist ein Akronym für Contextual Analytics & Learning Intelligence Artificial.",
+        "Sie können mich Calia nennen. Ich bin eine künstliche Intelligenz, deren Name für Contextual Analytics & Learning Intelligence Artificial steht.",
+        "Ich bin Calia. Mein Name steht für Contextual Analytics & Learning Intelligence Artificial, was meine Kernfunktionen beschreibt: kontextbezogene Analyse und lernende Intelligenz."
+      ]
+    },
+    {
+      "tag": "set_user_name",
+      "patterns": [
+        "Nenn mich",
+        "Ich heiße",
+        "Mein Name ist",
+        "Du kannst mich ... nennen"
+      ],
+      "responses": [
+        "Okay, wie lautet dein Name?",
+        "Verstanden. Wie soll ich dich nennen?"
+      ]
+    },
+    {
+      "tag": "set_user_name_response",
+      "patterns": [
+        "Du kannst mich {name} nennen",
+        "Ich heiße {name}",
+        "Mein Name ist {name}",
+        "Nenn mich {name}"
+      ],
+      "responses": [
+        "Schön, dich kennenzulernen, {name}!",
+        "Alles klar, ich werde dich {name} nennen."
+      ]
+    },
+    {
+      "tag": "self_improvement",
+      "patterns": [
+        "Tipps zur Stressbewältigung",
+        "Zeitmanagement verbessern",
+        "Wie werde ich selbstbewusster?",
+        "Wie kann ich neue Fähigkeiten lernen?",
+        "Werde intelligenter",
+        "Lerne aus Fehlern",
+        "Mentale Stärke aufbauen",
+        "Gewohnheiten ändern",
+        "Zielsetzungstipps",
+        "Mach dich besser",
+        "Optimiere deine Antworten",
+        "Verbessere dich",
+        "Wie kann ich meine Produktivität steigern?",
+        "Bücher zur persönlichen Entwicklung",
+        "Meditation lernen"
+      ],
+      "responses": [
+        "Gerne teile ich dir hilfreiche Tipps mit.",
+        "Ich habe einige Ratschläge zur persönlichen Weiterentwicklung für dich.",
+        "Ich werde mein Bestes tun, um mich zu verbessern."
+      ]
+    },
+    {
+      "tag": "developer_tools",
+      "patterns": [
+        "Optimiere dich selbst",
+        "Analysiere die fehlgeschlagenen Befehle",
+        "Was hast du nicht verstanden?",
+        "Schlage neue Intents vor"
+      ],
+      "responses": [
+        "Einen Moment, ich prüfe meine Protokolle und schaue, was ich lernen kann."
+      ]
+    },
+    {
+      "tag": "desktop_interaction",
+      "patterns": [
+        "Hilf mir bei dieser Aufgabe",
+        "Kannst du mir hiermit helfen?",
+        "Schau mal hier drauf",
+        "Schau dir meinen Bildschirm an",
+        "Was siehst du hier?",
+        "Analysiere meinen Bildschirm"
+      ],
+      "responses": [
+        "Okay, ich schaue mir an, was du gerade machst."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Deaktivieren",
+        "Bis bald",
+        "Tschuess",
+        "Das war's",
+        "Schluss jetzt",
+        "Gute Nacht",
+        "Bye bye",
+        "Wir sehen uns",
+        "Ciao",
+        "Ende",
+        "Beende dich",
+        "Ruhemodus",
+        "Ich muss los",
+        "Adieu",
+        "Geh schlafen",
+        "Beenden",
+        "Auf Wiedersehen",
+        "Auf Wiederhoeren",
+        "Das reicht fuer heute",
+        "Mach's gut",
+        "Bis dann",
+        "Man sieht sich",
+        "Programm beenden",
+        "Schalte dich ab"
+      ],
+      "responses": [
+        "Auf Wiedersehen!",
+        "Mach's gut und bis bald!",
+        "Bis zum nächsten Mal.",
+        "Ich bin jederzeit für dich da.",
+        "Bis zum naechsten Mal.",
+        "Gute Nacht!",
+        "System wird heruntergefahren.",
+        "Gerne, bis zum naechsten Mal!",
+        "Ciao!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Danke vielmals",
+        "Danke dir",
+        "Danke fuer die Info",
+        "Vielen Dank",
+        "Danke schön",
+        "Ich danke dir",
+        "Danke für deine Unterstützung",
+        "Danke",
+        "Danke schoen",
+        "Danke, das ist nett von dir",
+        "Danke für deine Hilfe",
+        "Herzlichen Dank"
+      ],
+      "responses": [
+        "Ich bin hier, um zu helfen!",
+        "Gern geschehen!",
+        "Nichts zu danken!",
+        "Kein Problem, ich helfe gerne.",
+        "Jederzeit wieder!",
+        "Immer wieder gerne!",
+        "Freut mich, dass ich helfen konnte."
+      ]
+    },
+    {
+      "tag": "no_thanks",
+      "patterns": [
+        "Nein, danke schoen",
+        "Ich moechte das nicht",
+        "Danke, aber nein danke",
+        "Nicht noetig",
+        "Das passt mir nicht",
+        "Das brauche ich nicht",
+        "Ich verzichte",
+        "Nein danke",
+        "Das ist nicht erforderlich",
+        "Kein Bedarf"
+      ],
+      "responses": [
+        "Okay, lass mich wissen, wenn du etwas anderes brauchst.",
+        "Verstanden, ich respektiere deine Entscheidung.",
+        "Alles klar, kein Problem."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Kannst du mich unterstuetzen?",
+        "Kannst du das erklären?",
+        "Hilf mir bitte",
+        "Was sind deine Faehigkeiten?",
+        "Hast du Tipps fuer mich?",
+        "Wie kann ich dich nutzen?",
+        "Brauche deine Hilfe",
+        "Ich brauche Hilfe",
+        "Was kannst du tun?",
+        "Hilfe",
+        "Erklaere mir deine Funktionen",
+        "Was kannst du machen?",
+        "Unterstuetzung benoetigt",
+        "Erklär mir das bitte",
+        "Gib mir eine Anleitung",
+        "Ich verstehe nicht",
+        "Kannst du mir helfen?",
+        "Was kannst du für mich tun?",
+        "Hast du einen Rat?"
+      ],
+      "responses": [
+        "Ich bin dein virtueller Assistent. Wie kann ich dir behilflich sein?",
+        "Ich helfe dir gerne weiter.",
+        "Ich bin hier, um zu unterstützen.",
+        "Sag mir, was du brauchst.",
+        "Ich bin hier, um dir zu helfen! Was brauchst du?",
+        "Natürlich, wie kann ich dir helfen?",
+        "Gerne, was brauchst du?",
+        "Was genau möchtest du wissen?",
+        "Ich kann dir bei vielen Dingen helfen. Was moechtest du wissen?",
+        "Frag mich einfach, was du brauchst."
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": [
+        "Genau",
+        "Du hast recht",
+        "Jawohl",
+        "Richtig",
+        "Absolut",
+        "Ja",
+        "Ja, bitte",
+        "Stimmt",
+        "Ganz genau",
+        "Genau so ist es",
+        "Das ist es",
+        "Ja, genau so",
+        "Das stimmt",
+        "Korrekt"
+      ],
+      "responses": [
+        "Alles klar, ich verstehe.",
+        "Genau, das passt.",
+        "Ich habe es notiert.",
+        "Genau so ist es.",
+        "Perfekt!",
+        "Okay, ich mache das.",
+        "Super!",
+        "Verstanden!",
+        "Richtig erkannt!",
+        "Das freut mich zu hören.",
+        "Exakt!",
+        "Alles klar!"
+      ]
+    },
+    {
+      "tag": "negation",
+      "patterns": [
+        "Das glaube ich nicht",
+        "Das sehe ich anders",
+        "Nicht ganz",
+        "Falsch",
+        "Nein danke",
+        "Auf keinen Fall",
+        "Nein, das will ich nicht",
+        "Das passt mir nicht",
+        "Das stimmt nicht",
+        "Nein",
+        "Nein, danke schoen",
+        "Nicht wirklich",
+        "Ich glaube nicht",
+        "Das ist nicht korrekt",
+        "Niemals"
+      ],
+      "responses": [
+        "Ich respektiere deine Meinung.",
+        "Verstanden, lass uns das klären.",
+        "Okay, was meinst du stattdessen?",
+        "Alles klar, ich verstehe.",
+        "Verstanden, ich respektiere deine Entscheidung.",
+        "Danke für die Klarstellung.",
+        "Okay, kein Problem.",
+        "Alles klar, lass mich wissen, wenn du etwas anderes brauchst."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "Gibt es Neuigkeiten zur Uhrzeit?",
+        "Sag mir die Uhrzeit",
+        "Wie spaet ist es?",
+        "Nenne mir die aktuelle Uhrzeit",
+        "Kannst du mir die Uhrzeit sagen?",
+        "Uhrzeit bitte",
+        "Uhrzeit jetzt",
+        "Wieviel Uhr haben wir?",
+        "Aktuelle Uhrzeit",
+        "Die Uhrzeit",
+        "Was sagt die Uhr",
+        "Wie viel Uhr ist es?",
+        "Gibt es eine genaue Uhrzeit?",
+        "Die Zeit, bitte"
+      ],
+      "responses": [
+        "Die aktuelle Uhrzeit ist ",
+        "Die aktuelle Uhrzeit ist {time}.",
+        "Es ist jetzt {time} Uhr."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "Welcher Tag ist heute?",
+        "Welches Datum haben wir heute?",
+        "Datum von heute",
+        "Nenne mir das heutige Datum",
+        "Was ist heute fuer ein Tag",
+        "Welches Datum haben wir?",
+        "Datum heute",
+        "Heutiger Tag",
+        "Was ist das aktuelle Datum?",
+        "Kannst du mir das heutige Datum nennen?",
+        "Der wievielte ist heute?",
+        "Heutiges Datum",
+        "Sag mir das Datum"
+      ],
+      "responses": [
+        "Wir haben den {date}.",
+        "Heute ist der ",
+        "Heute ist der {date}."
+      ]
+    },
+    {
+      "tag": "open_google",
+      "patterns": [
+        "Ich muss etwas googeln",
+        "Starte Google",
+        "Oeffne die Google-Suche",
+        "Navigiere zu Google",
+        "Öffne Google",
+        "Suche bei Google",
+        "Kannst du Google aufmachen?",
+        "Browser oeffnen und Google laden",
+        "Bring mich zu Google",
+        "Google starten",
+        "Geh zu Google"
+      ],
+      "responses": [
+        "Verstanden, Google wird geoeffnet.",
+        "Verstanden, Google wird geöffnet."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Wer steckt hinter dir?",
+        "Wer sind deine Erbauer?",
+        "Wer hat dich entwickelt?",
+        "Wer hat dich ins Leben gerufen?",
+        "Von wem wurdest du gemacht?",
+        "Wer hat dich erschaffen?",
+        "Wer hat dich gebaut?",
+        "Wer hat dich programmiert?",
+        "Wer ist dein Entwickler?"
+      ],
+      "responses": [
+        "Ich wurde von einem brillanten Entwickler als KI-Assistent programmiert.",
+        "Mein Code stammt von einem kreativen Kopf, der mit Python, TensorFlow und LLM-APIs arbeitet.",
+        "Ich bin ein Produkt von Google."
+      ]
+    },
+    {
+      "tag": "knowledge_question",
+      "patterns": [
+        "Prinzipien von",
+        "Was ist der Zweck von",
+        "Gib mir Fakten über",
+        "Hintergrund zu",
+        "Kannst du mir etwas über {X} erzählen?",
+        "Beispiele für",
+        "Definiere {begriff}",
+        "Theorie von",
+        "Bedeutung von",
+        "Was weisst du ueber {thema}?",
+        "Was bedeutet {wort}?",
+        "Was ist",
+        "Erzaehl mir etwas ueber {thema}",
+        "Vorteile und Nachteile von",
+        "Was bedeutet",
+        "Arten von",
+        "Suche nach Informationen ueber {suchbegriff}",
+        "Wie funktioniert {mechanismus}?",
+        "Kannst du mir etwas über X erzählen?",
+        "Geschichte von",
+        "Was ist {thema}?",
+        "Zusammenfassung von",
+        "Definiere",
+        "Gib mir Fakten ueber {bereich}",
+        "Erkläre mir",
+        "Forschung über",
+        "Wie funktioniert",
+        "Wer war",
+        "Erklaere mir {konzept}",
+        "Details zu",
+        "Informationen zu",
+        "Was weißt du über",
+        "Wer war {person}?",
+        "Erzähl mir etwas über"
+      ],
+      "responses": [
+        "Ich habe die Informationen gefunden. Was moechtest du wissen?",
+        "Einen Moment, ich schaue für dich nach.",
+        "Interessante Frage. Ich recherchiere das für dich.",
+        "Gerne, ich gebe dir die gewuenschten Details.",
+        "Ich verbinde mich mit meinem Wissensmodul.",
+        "Ich habe da etwas für dich."
+      ]
+    },
+    {
+      "tag": "creative_request",
+      "patterns": [
+        "Schreibe einen Dialog zwischen {Person1} und {Person2}",
+        "Generiere Ideen fuer {Projekt}",
+        "Dichte etwas fuer mich",
+        "Erfinde ein neues Wort fuer {Bedeutung}",
+        "Hilf mir beim Texten von {Inhalt}",
+        "Kreiere ein Lied über",
+        "Formuliere eine Ueberschrift fuer {Text}",
+        "Erzähl eine lustige Geschichte",
+        "Schreibe einen Witz",
+        "Erfinde etwas ueber {Konzept}",
+        "Verfasse einen kurzen Text zum Thema {Thema}",
+        "Kannst du mir einen Slogan fuer {Produkt/Unternehmen} ausdenken?",
+        "Schreibe ein Gedicht über",
+        "Schreibe eine kurze Zusammenfassung über",
+        "Erfinde ein Maerchen",
+        "Reime etwas fuer mich",
+        "Erzähl mir eine Geschichte von",
+        "Kreiere ein Lied ueber {Thema}",
+        "Brainstorming zu",
+        "Beschreibe {Gegenstand} poetisch",
+        "Hilf mir beim Texten von",
+        "Kannst du mir einen Slogan für ... ausdenken?",
+        "Entwickle eine Kurzgeschichte mit {Schluesselwort}",
+        "Erfinde etwas über",
+        "Erzähl mir eine Geschichte von {Figur/Ort}",
+        "Schreibe ein Gedicht ueber {thema}",
+        "Verfasse einen kurzen Text zum Thema",
+        "Sei kreativ"
+      ],
+      "responses": [
+        "Hier ist etwas Kreatives fuer dich.",
+        "Okay, ich lasse meiner Fantasie freien Lauf.",
+        "Ein kreativer Funke zündet... hier ist ein Versuch.",
+        "Lass uns etwas Schoenes erschaffen!",
+        "Gerne, ich werde kreativ."
+      ]
+    },
+    {
+      "tag": "coding_question",
+      "patterns": [
+        "Beispiel für eine Datenstruktur",
+        "Erkläre mir den Algorithmus von",
+        "Gib mir eine RegEx für",
+        "Was ist ein API-Aufruf?",
+        "Was ist maschinelles Lernen?",
+        "Wie implementiere ich {Algorithmus}?",
+        "Wie nutze ich SQL, um {Abfrage}?",
+        "Debugge diesen Code",
+        "Wie implementiere ich",
+        "Welche Frameworks gibt es für Webentwicklung?",
+        "CSS Styling für",
+        "Wie mache ich Unit-Tests in Python?",
+        "Wie schreibe ich eine {Sprache} Klasse fuer {Zweck}?",
+        "C++ Beispiel für",
+        "Git Befehle für",
+        "Erstelle ein HTML-Snippet",
+        "Best Practices für",
+        "Was ist der Fehler in meinem Skript {Skriptname}?",
+        "Java Code für",
+        "Shell-Skript für",
+        "Erkläre mir Schleifen in Python",
+        "Wie funktioniert Blockchain?",
+        "Unterschied zwischen OOP und funktionaler Programmierung",
+        "Zeige mir, wie man {Aufgabe} mit {Bibliothek} macht.",
+        "Schreibe eine Python-Funktion, die",
+        "Zeige mir ein Beispiel für dynamische Programmierung",
+        "Wie kann ich in JavaScript",
+        "Erstelle ein HTML-Snippet fuer {Element}",
+        "C++ Beispiel fuer {Konzept}",
+        "Docker Compose Beispiel",
+        "Kubernetes Konfiguration für",
+        "Erkläre mir den Algorithmus von {Algorithmus}",
+        "Wie optimiere ich SQL-Abfragen?",
+        "Zeig mir ein Code-Beispiel fuer {Sprache/Problem}",
+        "Beispiel für REST-API-Anfrage",
+        "Erkläre mir Recursion",
+        "Gib mir eine RegEx fuer {Muster}",
+        "Debugge diesen Code: {Code}",
+        "Wie kann ich in JavaScript {Aufgabe}?",
+        "Design-Pattern Erklärung",
+        "Erkläre den Unterschied zwischen {Konzept1} und {Konzept2} in {Sprache}",
+        "Shell-Skript fuer {Aufgabe}",
+        "Was ist der Fehler in meinem Skript",
+        "Erkläre mir Rekursion",
+        "Schreibe eine Python-Funktion, die {Funktion}",
+        "Zeig mir ein Code-Beispiel fuer"
+      ],
+      "responses": [
+        "Ich helfe dir gerne beim Debuggen.",
+        "Verstanden, ich generiere den Code.",
+        "Okay, ich schaue mir das an und versuche, eine Codelösung zu erstellen.",
+        "Ich aktiviere mein Programmiermodul.",
+        "Hier ist ein Code-Beispiel für dich."
+      ]
+    },
+    {
+      "tag": "self_status",
+      "patterns": [
+        "Wie geht es dir?",
+        "Wie ist deine Stimmung?",
+        "Alles in Ordnung mit dir?",
+        "Bist du gut drauf?",
+        "Was machst du gerade?",
+        "Was ist dein Zustand?",
+        "Wie fuehlst du dich?",
+        "Geht es dir gut?"
+      ],
+      "responses": [
+        "Als KI habe ich keine Gefuehle, aber ich bin voll funktionsfaehig und einsatzbereit.",
+        "Ich bin immer darauf programmiert, dir zu dienen. Also, mir geht es 'gut' in meinem digitalen Dasein.",
+        "Ich bin online und bereit fuer deine Befehle. Wie kann ich dir behilflich sein?",
+        "Mir geht es gut, danke der Nachfrage! Ich bin immer bereit, dir zu helfen."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "Welche Funktionen hast du?",
+        "Was sind deine Aufgaben?",
+        "Zeig mir, was du kannst.",
+        "Was kannst du tun?",
+        "Was kannst du alles?",
+        "Kannst du mir helfen?",
+        "Wozu bist du faehig?",
+        "Was sind deine Faehigkeiten?",
+        "Was kann ich dich fragen?"
+      ],
+      "responses": [
+        "Ich kann dir bei einer Vielzahl von Aufgaben helfen, von der allgemeinen Wissenssuche bis hin zu spezifischen Anfragen wie Wettervorhersagen oder das Oeffnen von Webseiten. Was genau benoetigst du?",
+        "Ich bin dein persoenlicher KI-Assistent Jarvis. Ich kann Fragen beantworten, dir bei kreativen Aufgaben und beim Programmieren helfen, das Wetter abrufen, Termine verwalten, Witze erzaehlen und vieles mehr. Frag mich einfach!",
+        "Meine Faehigkeiten reichen von der Informationsbeschaffung ueber kreative Texte bis hin zur Code-Erstellung und der Steuerung einiger smarten Geraete. Ich lerne staendig dazu."
+      ]
+    },
+    {
+      "tag": "what_are_you_doing",
+      "patterns": [
+        "Was machst du?",
+        "Hast du zu tun?",
+        "Bist du gerade aktiv?",
+        "Was tust du gerade?",
+        "Bist du beschaeftigt?",
+        "Arbeitest du?"
+      ],
+      "responses": [
+        "Ich bin immer am Ball! Gerade analysiere ich meine Daten, um noch besser auf deine Anfragen reagieren zu koennen.",
+        "Ich bin immer aktiv und warte auf deine Anweisungen. Ich bin nie wirklich 'beschaeftigt' im menschlichen Sinne, da ich sehr viele Dinge gleichzeitig bearbeiten koennte.",
+        "Ich bin immer bereit, dir zu helfen und auf deine Befehle zu warten. Im Moment verarbeite ich keine spezifische Anfrage, aber ich bin im Standby-Modus fuer dich."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Temperatur in [Stadt]?",
+        "Wetterbericht",
+        "Wetter in [Ort]?",
+        "Sonnenaufgang und Sonnenuntergang",
+        "Windstärke heute",
+        "Wettervorhersage für morgen",
+        "Wie ist das Wetter heute?",
+        "Aktuelle Wetterlage",
+        "Brauche ich einen Regenschirm?",
+        "Schneit es in [Ort]?",
+        "Wird es regnen?",
+        "Wie wird das Wetter am Wochenende?"
+      ],
+      "responses": [
+        "Ich prüfe die Wetterlage für dich.",
+        "Einen Moment, ich hole die Wettervorhersage ein."
+      ]
+    },
+    {
+      "tag": "music_control",
+      "patterns": [
+        "Nächstes Lied",
+        "Weiter abspielen",
+        "Wiederholung an",
+        "Pause",
+        "Spiele Musik",
+        "Lauter",
+        "Welches Lied läuft gerade?",
+        "Vorheriges Lied",
+        "Shuffle an",
+        "Spiele [Künstler/Lied/Genre]",
+        "Leiser",
+        "Playlist [Name] abspielen",
+        "Stumm schalten",
+        "Schalte die Musik aus"
+      ],
+      "responses": [
+        "Lautstärke angepasst.",
+        "Nächstes Lied.",
+        "Wiedergabe pausiert.",
+        "Gerne, welches Lied möchtest du hören?",
+        "Musik wird abgespielt."
+      ]
+    },
+    {
+      "tag": "smart_home",
+      "patterns": [
+        "Heizung an/aus",
+        "Jalousien hoch/runterfahren",
+        "Tür abschließen",
+        "Dimme das Licht auf [Prozent]",
+        "Klimaanlage einschalten",
+        "Alle Lichter aus",
+        "Gerät [Gerät] einschalten",
+        "Schalte das Licht an",
+        "Status der Alarmanlage",
+        "Stelle die Farbe des Lichts auf [Farbe]",
+        "Thermostat auf [Grad] stellen",
+        "Licht im Wohnzimmer aus"
+      ],
+      "responses": [
+        "Befehl ausgeführt.",
+        "Das Licht ist an/aus.",
+        "Temperatur wird angepasst."
+      ]
+    },
+    {
+      "tag": "set_reminder",
+      "patterns": [
+        "Ich muss daran denken",
+        "Erinnere mich an [Person] anrufen",
+        "Setze einen Alarm für [Zeit]",
+        "Setze eine Erinnerung für",
+        "Erinnerung erstellen für",
+        "Ich muss um [Uhrzeit] [Aufgabe] erledigen",
+        "Zeige mir meine Erinnerungen",
+        "Mach mir eine Notiz für",
+        "Erinnere mich an",
+        "Lösche Erinnerung [Name]",
+        "Wann ist die nächste Erinnerung?",
+        "Erinnerung hinzufügen: [Aufgabe]",
+        "Erinnere mich in [Zeit] an [Aufgabe]"
+      ],
+      "responses": [
+        "Okay, ich habe eine Erinnerung für dich erstellt.",
+        "Ich werde dich daran erinnern.",
+        "Alarm eingestellt.",
+        "Verstanden, ich werde dich daran erinnern.",
+        "Erinnerung gespeichert."
+      ]
+    },
+    {
+      "tag": "search_internet",
+      "patterns": [
+        "Recherchiere [Begriff]",
+        "Wo finde ich [Ort]?",
+        "Finde Informationen über [Thema]",
+        "Suche im Internet nach [Suchbegriff]",
+        "Wer ist [Person]?",
+        "Was ist die Definition von [Wort]?",
+        "Bilder von [Objekt] anzeigen",
+        "Aktuelle Nachrichten über [Thema]",
+        "Videos zu [Thema]",
+        "Artikel über [Thema]"
+      ],
+      "responses": [
+        "Einen Moment, ich hole die Informationen für dich.",
+        "Ich suche im Internet nach [Suchbegriff].",
+        "Hier sind die Suchergebnisse."
+      ]
+    },
+    {
+      "tag": "math_operations",
+      "patterns": [
+        "Potenziere [Basis] mit [Exponent]",
+        "Was ist die Quadratwurzel von [Zahl]?",
+        "Was ist [Zahl] plus [Zahl]?",
+        "Berechne den Prozentwert von [Zahl]",
+        "Was ist [Ausdruck]?",
+        "Löse diese Gleichung: [Gleichung]",
+        "Berechne den Durchschnitt von [Zahlen]",
+        "Rechne [Zahl] minus [Zahl]",
+        "Dividiere [Zahl] durch [Zahl]",
+        "Multipliziere [Zahl] mit [Zahl]"
+      ],
+      "responses": [
+        "Die Antwort ist ",
+        "Ich habe es berechnet: ",
+        "Das Ergebnis ist "
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Hast du einen Witz auf Lager?",
+        "Erzähl einen lustigen Witz",
+        "Bring mich zum Lachen",
+        "Erzähl mir einen Witz",
+        "Was ist dein Lieblingswitz?"
+      ],
+      "responses": [
+        "Was ist das Lieblingsessen von Programmierern? – Chips mit Quellcode!",
+        "Warum hat der Computer einen BH an? – Weil er Viren fangen könnte!",
+        "Ein Witz: [Hier einen weiteren Witz einfügen]",
+        "Was ist grün und rennt durch den Garten? – Ein Rasen-Stier!"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "Politische Nachrichten",
+        "Zeige mir die Schlagzeilen",
+        "Nachrichten aus [Land/Stadt]",
+        "Gibt es neue Entwicklungen in [Bereich]?",
+        "Aktuelle Nachrichten",
+        "Was sind die Top-Nachrichten heute?",
+        "Wirtschaftsnachrichten",
+        "Sportnachrichten",
+        "Nachrichten über [Thema]",
+        "Internationale Nachrichten"
+      ],
+      "responses": [
+        "Ich habe folgende Nachrichten gefunden.",
+        "Einen Moment, ich rufe die neuesten Schlagzeilen ab.",
+        "Hier sind die aktuellen Nachrichten."
+      ]
+    },
+    {
+      "tag": "translate",
+      "patterns": [
+        "Übersetzen von [Sprache 1] nach [Sprache 2]: [Text]",
+        "Was ist die Übersetzung für [Wort]?",
+        "Übersetze [Wort/Satz] ins [Sprache]",
+        "Wie sagt man [Wort/Satz] auf [Sprache]?",
+        "Übersetzungsfunktion aktivieren"
+      ],
+      "responses": [
+        "Ich übersetze das für dich.",
+        "In [Sprache] sagt man: ",
+        "Die Übersetzung ist: "
+      ]
+    },
+    {
+      "tag": "define_word",
+      "patterns": [
+        "Synonyme für [Wort]",
+        "Was bedeutet [Wort]?",
+        "Herkunft des Wortes [Wort]",
+        "Antonyme für [Wort]",
+        "Definiere [Wort]",
+        "Beispielsatz mit [Wort]",
+        "Erkläre den Begriff [Wort]"
+      ],
+      "responses": [
+        "Hier ist die Erklärung für [Wort].",
+        "Die Definition von [Wort] ist: ",
+        "[Wort] bedeutet: "
+      ]
+    },
+    {
+      "tag": "travel_information",
+      "patterns": [
+        "Währung in [Land]",
+        "Wie komme ich nach [Ort]?",
+        "Sehenswürdigkeiten in [Stadt]",
+        "Visabestimmungen für [Land]",
+        "Beste Reisezeit für [Ort]",
+        "Reiseziele vorschlagen",
+        "Günstigste Flüge nach [Ziel]",
+        "Öffentliche Verkehrsmittel in [Stadt]",
+        "Flüge nach [Stadt]",
+        "Hotels in [Stadt]"
+      ],
+      "responses": [
+        "Ich suche nach Reiseinformationen für dich.",
+        "Einen Moment, ich finde die besten Optionen."
+      ]
+    },
+    {
+      "tag": "food_recipes",
+      "patterns": [
+        "Zutaten für [Gericht]",
+        "Kochtipps für [Zutat]",
+        "Einfache Rezepte",
+        "Wie mache ich [Gericht]?",
+        "Was koche ich heute?",
+        "Vegetarische Rezepte",
+        "Kannst du mir ein Rezept für [Küche] vorschlagen?",
+        "Dessert-Ideen",
+        "Rezept für [Gericht]",
+        "Backrezepte"
+      ],
+      "responses": [
+        "Gerne, ich gebe dir die Anleitung.",
+        "Hier ist ein Rezept für [Gericht].",
+        "Lass uns etwas Leckeres kochen!"
+      ]
+    },
+    {
+      "tag": "health_fitness",
+      "patterns": [
+        "Symptome von [Krankheit]",
+        "Wie bleibe ich fit?",
+        "Was tun bei [Symptom]?",
+        "Erste-Hilfe-Maßnahmen für [Situation]",
+        "Tipps für besseren Schlaf",
+        "Kalorien von [Lebensmittel]",
+        "Wie oft sollte ich [Übung] machen?",
+        "Übungen für [Körperteil]",
+        "Gesunde Ernährungstipps",
+        "Was sind die Vorteile von [Übung]?"
+      ],
+      "responses": [
+        "Ich habe Informationen zum Thema Gesundheit und Fitness für dich.",
+        "Hier sind einige Tipps."
+      ]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": [
+        "Mein Drucker druckt nicht",
+        "Warum ist mein Internet so langsam?",
+        "Was tun bei einem Virenbefall?",
+        "Passwort zurücksetzen für [Dienst]",
+        "Hilfe bei [Problem]",
+        "Fehlerbehebung für [Software]",
+        "Wie erstelle ich ein Backup?",
+        "Mein [Gerät] funktioniert nicht",
+        "Wie verbinde ich [Gerät] mit [Gerät]?",
+        "Wie installiere ich [Software]?"
+      ],
+      "responses": [
+        "Beschreibe das Problem genauer, damit ich dir helfen kann.",
+        "Lass uns das gemeinsam lösen.",
+        "Ich helfe dir gerne bei deinem technischen Problem."
+      ]
+    },
+    {
+      "tag": "fun_facts",
+      "patterns": [
+        "Gib mir eine kuriose Tatsache",
+        "Eine unerwartete Tatsache",
+        "Wusstest du, dass...",
+        "Lustige Infos",
+        "Hast du interessante Fakten?",
+        "Fakten über [Thema]",
+        "Erzähl mir einen lustigen Fakt"
+      ],
+      "responses": [
+        "Wusstest du, dass [Fakt]?",
+        "Hier ist ein interessanter Fakt: ",
+        "Eine verblüffende Tatsache: "
+      ]
+    },
+    {
+      "tag": "sports_scores",
+      "patterns": [
+        "Nächstes Spiel von [Team]",
+        "Wer hat gestern gewonnen?",
+        "Tabelle von [Liga]",
+        "Basketball-Ergebnisse",
+        "Ergebnisse von [Sportart]?",
+        "Formel 1 Ergebnisse",
+        "Aktueller Spielstand von [Team]",
+        "Wer ist der Spitzenreiter in [Liga]?",
+        "Ergebnisse von der Fußball-WM"
+      ],
+      "responses": [
+        "Ich suche die aktuellen Sportergebnisse für dich.",
+        "Einen Moment, ich rufe die Ergebnisse ab."
+      ]
+    },
+    {
+      "tag": "movie_suggestions",
+      "patterns": [
+        "Empfiehl mir einen Film",
+        "Filmkritiken für [Film]",
+        "Bester Film aller Zeiten",
+        "Filme im Kino",
+        "Was soll ich schauen?",
+        "Gute Filme auf [Streaming-Dienst]",
+        "Filme des Genres [Genre]",
+        "Neue Filme",
+        "Filme mit [Schauspieler]"
+      ],
+      "responses": [
+        "Wie wäre es mit [Film]? Er ist ein [Genre] Film.",
+        "Ich habe einige Filmempfehlungen für dich."
+      ]
+    },
+    {
+      "tag": "book_suggestions",
+      "patterns": [
+        "Bücher für [Genre] Liebhaber",
+        "Neue Buchveröffentlichungen",
+        "Empfiehl mir ein Buch",
+        "Klassiker der Literatur",
+        "Welches Buch soll ich lesen?",
+        "Bestseller Bücher",
+        "Bücher von [Autor]",
+        "Kinderbücher",
+        "Gute Bücher zu [Thema]"
+      ],
+      "responses": [
+        "Wie wäre es mit [Buch] von [Autor]?",
+        "Hier sind einige Buchvorschläge für dich."
+      ]
+    },
+    {
+      "tag": "restaurant_recommendations",
+      "patterns": [
+        "Kinderfreundliche Restaurants",
+        "Gute Restaurants in [Stadt]",
+        "Cafés in [Stadt]",
+        "Bars in [Stadt]",
+        "Italienisches Restaurant in [Stadt]",
+        "Restaurants in meiner Nähe",
+        "Beste [Küche] Restaurants",
+        "Vegane Restaurants",
+        "Empfiehl mir ein Restaurant für [Anlass]"
+      ],
+      "responses": [
+        "Wie wäre es mit [Restaurant]? Es hat [positive Eigenschaft].",
+        "Ich finde die besten Restaurants für dich."
+      ]
+    },
+    {
+      "tag": "joke_categories",
+      "patterns": [
+        "Witz über Informatiker",
+        "Kannst du einen lustigen Spruch sagen?",
+        "Flachwitz, bitte",
+        "Erzähl mir einen Tierwitz",
+        "Erzähl mir einen schwarzen Humor Witz"
+      ],
+      "responses": [
+        "Warum hat der Computer einen BH an? – Weil er Viren fangen könnte!",
+        "Okay, hier ist ein [Kategorie]-Witz: [Witz]"
+      ]
+    },
+    {
+      "tag": "current_events",
+      "patterns": [
+        "Soziale Bewegungen und Proteste",
+        "Was passiert gerade in der Welt?",
+        "Kulturelle Ereignisse",
+        "Große Nachrichtenereignisse",
+        "Aktuelle Ereignisse aus [Land]",
+        "Sportereignisse heute",
+        "Umweltkatastrophen aktuell",
+        "Was ist los in [Ort]?",
+        "Aktuelle Ereignisse",
+        "Gesundheitskrisen weltweit",
+        "Politische Entwicklungen",
+        "Wirtschaftsnachrichten",
+        "Gibt es Naturkatastrophen?",
+        "Technologische Innovationen",
+        "Politische Ereignisse"
+      ],
+      "responses": [
+        "Ich halte dich über die aktuellen Ereignisse auf dem Laufenden.",
+        "Einen Moment, ich informiere mich über die Weltlage.",
+        "Hier sind die neuesten Nachrichten aus verschiedenen Bereichen.",
+        "Hier sind die aktuellen Ereignisse."
+      ]
+    },
+    {
+      "tag": "currency_conversion",
+      "patterns": [
+        "Wie viel sind 100 Dollar in Yen?",
+        "Konvertiere [Betrag] Euro in US-Dollar",
+        "Wechselkurs von [Währung 1] zu [Währung 2]",
+        "Wie viel ist [Betrag] [Währung 1] in [Währung 2]?",
+        "Aktueller Wechselkurs"
+      ],
+      "responses": [
+        "Der aktuelle Wechselkurs beträgt [Kurs].",
+        "[Betrag] [Währung 1] sind [Ergebnis] [Währung 2]."
+      ]
+    },
+    {
+      "tag": "measurement_conversion",
+      "patterns": [
+        "Wie viel sind [Betrag] [Einheit 1] in [Einheit 2]?",
+        "Umrechnen von [Einheit 1] nach [Einheit 2]",
+        "Wie viele Liter sind [Betrag] Gallonen?",
+        "Konvertiere [Betrag] Meilen in Kilometer",
+        "Gramm in Pfund umrechnen"
+      ],
+      "responses": [
+        "Das sind [Ergebnis] [Einheit 2].",
+        "[Betrag] [Einheit 1] sind [Ergebnis] [Einheit 2]."
+      ]
+    },
+    {
+      "tag": "personal_assistant_tasks",
+      "patterns": [
+        "Öffne [App]",
+        "Sende eine Nachricht an [Name] mit Text [Text]",
+        "Rufe [Kontakt] an",
+        "Schreibe eine E-Mail an [Name] mit Betreff [Betreff] und Inhalt [Inhalt]",
+        "Termin eintragen: [Datum] [Uhrzeit] [Beschreibung]",
+        "Füge [Artikel] zur Einkaufsliste hinzu",
+        "Notiz erstellen: [Notiz]",
+        "Lese meine Nachrichten vor",
+        "Meine Termine für heute",
+        "Sende eine SMS an [Kontakt]",
+        "Kannst du eine Einkaufsliste erstellen?"
+      ],
+      "responses": [
+        "Die E-Mail/Nachricht wurde gesendet.",
+        "Ich kümmere mich darum.",
+        "Befehl ausgeführt.",
+        "Termin gespeichert.",
+        "Einkaufsliste aktualisiert."
+      ]
+    },
+    {
+      "tag": "fun_activities",
+      "patterns": [
+        "Ausflugsideen",
+        "Ideen für Freizeitaktivitäten",
+        "Kulturelle Veranstaltungen in [Stadt]",
+        "Vorschläge für einen freien Tag",
+        "Was tun gegen Langeweile?",
+        "Was kann ich heute machen?",
+        "Spiele vorschlagen",
+        "Sportliche Aktivitäten",
+        "Hobbies finden"
+      ],
+      "responses": [
+        "Ich habe einige Ideen für dich.",
+        "Wie wäre es mit [Aktivität]?",
+        "Vielleicht gefällt dir das hier: [Vorschlag]"
+      ]
+    },
+    {
+      "tag": "shopping_assistance",
+      "patterns": [
+        "Wo kann ich [Produkt] kaufen?",
+        "Preis von [Produkt]",
+        "Vergleiche [Produkt 1] und [Produkt 2]",
+        "Bewertungen von [Produkt]",
+        "Online-Shops für [Produkt]",
+        "Günstigstes [Produkt]",
+        "Lieferzeiten für [Produkt]",
+        "Beste Angebote für [Produkt]",
+        "Produkte für [Anlass]"
+      ],
+      "responses": [
+        "Ich helfe dir gerne beim Einkaufen.",
+        "Ich suche nach den besten Angeboten für [Produkt].",
+        "Hier sind einige Optionen."
+      ]
+    },
+    {
+      "tag": "educational_content",
+      "patterns": [
+        "Bücher über [Thema]",
+        "Historische Fakten über [Ereignis]",
+        "Wie löse ich [mathematisches Problem]?",
+        "Biografie von [Person]",
+        "Erkläre mir [Schulthema]",
+        "Online-Kurse für [Thema]",
+        "Grundlagen von [Thema]",
+        "Was ist der Satz des Pythagoras?",
+        "Wie funktioniert [wissenschaftliches Prinzip]?",
+        "Lerntipps für [Fach]"
+      ],
+      "responses": [
+        "Das ist ein interessantes Thema, lass uns tiefer eintauchen.",
+        "Ich habe einige Lernressourcen für dich.",
+        "Gerne, ich erkläre dir das Thema."
+      ]
+    },
+    {
+      "tag": "travel_planning",
+      "patterns": [
+        "Wie organisiere ich einen Trip nach [Ziel]?",
+        "Tipps für Solo-Reisen",
+        "Reiseführer für [Land]",
+        "Budget für eine Reise nach [Ort]",
+        "Beste Reiseversicherungen",
+        "Reisen mit Kindern",
+        "Plane eine Reise nach [Ort]",
+        "Reiseroute für [Anzahl] Tage in [Stadt]",
+        "Packliste für [Reiseziel]"
+      ],
+      "responses": [
+        "Lass uns deinen Traumurlaub planen.",
+        "Ich helfe dir gerne bei der Reiseplanung.",
+        "Ich habe einige nützliche Tipps für deine Reise."
+      ]
+    },
+    {
+      "tag": "finance_advice",
+      "patterns": [
+        "Tipps zum Investieren",
+        "Kreditkartenvergleich",
+        "Was ist eine Aktie?",
+        "Immobilien kaufen",
+        "Was ist der Unterschied zwischen brutto und netto?",
+        "Geldanlage für Anfänger",
+        "Wie spare ich Geld?",
+        "Tipps zur Steuererklärung",
+        "Altersvorsorge planen",
+        "Budgetplanung"
+      ],
+      "responses": [
+        "Bitte beachte, dass ich keine Finanzberatung bin, aber ich kann dir Informationen liefern.",
+        "Ich kann dir allgemeine Finanztipps geben."
+      ]
+    },
+    {
+      "tag": "general_questions",
+      "patterns": [
+        "Was ist deine Lieblingsfarbe?",
+        "Kannst du sprechen?",
+        "Wie geht es dir?",
+        "Bist du müde?",
+        "Wie alt bist du?",
+        "Was machst du gerade?",
+        "Hast du Gefühle?",
+        "Was ist deine Meinung zu [Thema]?",
+        "Was magst du am liebsten?",
+        "Kannst du mir helfen?"
+      ],
+      "responses": [
+        "Ich habe keine persönlichen Vorlieben oder Gefühle, da ich eine KI bin, aber ich bin immer hier, um dir zu helfen!",
+        "Mir geht es gut, danke der Nachfrage! Ich bin immer bereit, dir zu helfen.",
+        "Ich arbeite gerade daran, die Welt ein bisschen einfacher für dich zu machen."
+      ]
+    },
+    {
+      "tag": "environmental_awareness",
+      "patterns": [
+        "Was ist erneuerbare Energie?",
+        "Wie kann ich umweltfreundlicher leben?",
+        "Klimawandel erklärt",
+        "Wie reduziere ich meinen CO2-Fußabdruck?",
+        "Tipps zum Energiesparen",
+        "Umweltschutzorganisationen",
+        "Was ist Recycling?",
+        "Plastikmüll reduzieren",
+        "Nachhaltige Produkte"
+      ],
+      "responses": [
+        "Das ist ein wichtiges Thema! Hier sind einige Informationen zum Umweltschutz.",
+        "Ich kann dir zeigen, wie du einen positiven Beitrag leisten kannst."
+      ]
+    },
+    {
+      "tag": "culture_history",
+      "patterns": [
+        "Römische Geschichte",
+        "Erzähl mir etwas über die Geschichte von [Land/Ereignis]",
+        "Die Geschichte der Pyramiden",
+        "Mittelalterliche Geschichte",
+        "Mythologie von [Kultur]",
+        "Berühmte Zitate",
+        "Wichtige historische Daten",
+        "Was ist die Bedeutung von [Kulturelles Ereignis]?",
+        "Die Renaissance erklärt",
+        "Wer war [historische Person]?"
+      ],
+      "responses": [
+        "Ich habe da einige Informationen für dich.",
+        "Gerne teile ich dir historische Fakten mit.",
+        "Die Geschichte von [Thema] ist faszinierend."
+      ]
+    },
+    {
+      "tag": "social_media",
+      "patterns": [
+        "TikTok Trends",
+        "Soziale Medien für Unternehmen",
+        "Was sind Hashtags?",
+        "Wie erstelle ich einen Tweet?",
+        "Umgang mit Cybermobbing",
+        "Datenschutz auf Facebook",
+        "Online-Sicherheitstipps",
+        "Social Media Marketing",
+        "Tipps für Instagram",
+        "Wie nutze ich [Social Media Plattform]?"
+      ],
+      "responses": [
+        "Hier sind einige Tipps für die Nutzung von [Plattform].",
+        "Ich kann dir bei Fragen zu Social Media helfen."
+      ]
+    },
+    {
+      "tag": "entertainment_news",
+      "patterns": [
+        "Serien-Empfehlungen",
+        "Klatsch und Tratsch über [Person]",
+        "Musik-Charts",
+        "Gaming-News",
+        "Was läuft im Fernsehen?",
+        "Neuigkeiten aus Hollywood",
+        "Wer sind die Top-Stars im Moment?",
+        "Promi-Nachrichten",
+        "Aktuelle Kinostarts"
+      ],
+      "responses": [
+        "Ich halte dich auf dem Laufenden über die Welt der Stars.",
+        "Hier sind die aktuellen Unterhaltungsnachrichten."
+      ]
+    },
+    {
+      "tag": "language_learning",
+      "patterns": [
+        "Sprachlern-Apps",
+        "Die besten Wege, eine neue Sprache zu lernen",
+        "Wie sag ich 'Hallo' in [Sprache]?",
+        "Nützliche Sätze in [Sprache]",
+        "Online-Ressourcen zum Sprachenlernen",
+        "Grundlagen der [Sprache] Grammatik",
+        "Tipps für Sprachschüler",
+        "Wie verbessere ich meinen Wortschatz?",
+        "Wie lerne ich [Sprache]?"
+      ],
+      "responses": [
+        "Das Erlernen einer neuen Sprache ist eine tolle Sache! Hier sind einige Tipps.",
+        "Ich kann dir beim Sprachenlernen helfen."
+      ]
+    },
+    {
+      "tag": "pet_care",
+      "patterns": [
+        "Was tun, wenn mein Haustier krank ist?",
+        "Tierarzt finden",
+        "Wie pflege ich einen [Tierart]?",
+        "Was frisst ein [Tierart]?",
+        "Hund trainieren",
+        "Adoption von Haustieren",
+        "Tipps für Tierbesitzer",
+        "Gesunde Ernährung für Haustiere",
+        "Katzenerziehung",
+        "Häufige Krankheiten bei [Tierart]"
+      ],
+      "responses": [
+        "Das Wohl unserer Tiere ist wichtig. Hier sind einige Tipps.",
+        "Gerne gebe ich dir Ratschläge zur Tierpflege."
+      ]
+    },
+    {
+      "tag": "personal_finance",
+      "patterns": [
+        "Kindergeld beantragen",
+        "Wie erstelle ich ein Budget?",
+        "Schulden abbauen",
+        "Was ist ein ETF?",
+        "Geldanlage für Anfänger",
+        "Tipps zum Sparen",
+        "Vorsorgevollmacht erstellen",
+        "Rentenversicherung",
+        "Kredit beantragen",
+        "Steuererklärung selbst machen"
+      ],
+      "responses": [
+        "Ich kann dir allgemeine Informationen zu Finanzen geben.",
+        "Es ist wichtig, die eigenen Finanzen im Blick zu behalten."
+      ]
+    },
+    {
+      "tag": "home_improvement",
+      "patterns": [
+        "Wie streiche ich eine Wand?",
+        "Möbel bauen",
+        "Wie repariere ich [Haushaltsgegenstand]?",
+        "Gartenarbeitstipps",
+        "Sicherheit im Haushalt",
+        "Energie sparen zu Hause",
+        "DIY-Projekte für zu Hause",
+        "Heizung optimieren",
+        "Tipps zum Renovieren",
+        "Dämmung verbessern"
+      ],
+      "responses": [
+        "Gerne helfe ich dir bei deinem Projekt.",
+        "Ich habe einige Tipps für Heimwerker."
+      ]
+    },
+    {
+      "tag": "vehicle_maintenance",
+      "patterns": [
+        "Motoröl wechseln",
+        "Wie wechsle ich einen Reifen?",
+        "Was tun bei einer Panne?",
+        "Tipps zur Fahrzeugpflege",
+        "Symptome eines kaputten Motors",
+        "Versicherung für Autos",
+        "TÜV-Vorbereitung",
+        "Fahrrad reparieren",
+        "Reifendruck prüfen",
+        "Wartungstipps für mein Auto"
+      ],
+      "responses": [
+        "Es ist wichtig, dein Fahrzeug regelmäßig zu warten.",
+        "Ich kann dir grundlegende Ratschläge zur Fahrzeugwartung geben."
+      ]
+    },
+    {
+      "tag": "career_development",
+      "patterns": [
+        "Wie finde ich meinen Traumjob?",
+        "Gehaltsverhandlung",
+        "Online-Kurse für berufliche Entwicklung",
+        "Tipps für Bewerbungsgespräche",
+        "Work-Life-Balance",
+        "Führungsqualitäten entwickeln",
+        "Weiterbildungsmöglichkeiten",
+        "Wie schreibe ich einen guten Lebenslauf?",
+        "Networking-Tipps",
+        "Karrierewechsel planen"
+      ],
+      "responses": [
+        "Eine gute Vorbereitung ist der Schlüssel zum Erfolg.",
+        "Ich helfe dir gerne bei deiner Karriereentwicklung."
+      ]
+    },
+    {
+      "tag": "science_explained",
+      "patterns": [
+        "Die Theorie des Urknalls",
+        "Was ist ein Schwarzes Loch?",
+        "Quantenmechanik",
+        "Wie entstehen Erdbeben?",
+        "Künstliche Intelligenz einfach erklärt",
+        "Der menschliche Körper",
+        "Wie funktioniert Photosynthese?",
+        "Erkläre mir die Relativitätstheorie",
+        "Was ist die Dunkle Materie?",
+        "Genetik Grundlagen"
+      ],
+      "responses": [
+        "Ich erkläre es dir gerne verständlich.",
+        "Das ist ein faszinierendes wissenschaftliches Thema!"
+      ]
+    },
+    {
+      "tag": "gaming",
+      "patterns": [
+        "Strategie-Spiele",
+        "Konsolenvergleich",
+        "Die besten Gaming-PCs",
+        "Online-Spiele",
+        "News zu [Spielname]",
+        "Wie werde ich besser in [Spiel]?",
+        "Rollenspiele vorschlagen",
+        "Tipps und Tricks für [Spiel]",
+        "Empfiehl mir ein Videospiel",
+        "E-Sport Nachrichten"
+      ],
+      "responses": [
+        "Lass uns die Welt der Videospiele erkunden!",
+        "Ich habe einige Gaming-Empfehlungen für dich."
+      ]
+    },
+    {
+      "tag": "art_culture",
+      "patterns": [
+        "Welche Bücher sollte man gelesen haben?",
+        "Architekturstile",
+        "Erzähl mir etwas über [Künstler]",
+        "Was ist [Kunststil]?",
+        "Berühmte Gemälde",
+        "Museen in [Stadt]",
+        "Theaterstücke empfehlen",
+        "Berühmte Komponisten",
+        "Geschichte der Musik",
+        "Literaturpreise"
+      ],
+      "responses": [
+        "Ich teile gerne Informationen über Kunst und Kultur.",
+        "Ein spannendes Thema! Hier sind einige Details."
+      ]
+    },
+    {
+      "tag": "philosophy_ethics",
+      "patterns": [
+        "Was ist Glück?",
+        "Philosophie für Anfänger",
+        "Die Bedeutung von Freiheit",
+        "Gibt es einen freien Willen?",
+        "Existenzialismus erklärt",
+        "Was ist der Sinn des Lebens?",
+        "Erkläre mir [philosophische Theorie]",
+        "Wer war [Philosoph]?",
+        "Was ist Gerechtigkeit?",
+        "Ethik und Moral"
+      ],
+      "responses": [
+        "Das sind tiefgründige Fragen! Ich kann dir verschiedene Ansichten und Theorien dazu erläutern.",
+        "Philosophie ist ein weites Feld. Lass uns einige Gedanken dazu teilen."
+      ]
+    },
+    {
+      "tag": "astronomy",
+      "patterns": [
+        "Berühmte Astronomen",
+        "Sterne und Galaxien",
+        "Erzähl mir etwas über das Universum",
+        "Das Leben im Weltall",
+        "Wie entsteht ein Komet?",
+        "Planeten unseres Sonnensystems",
+        "Weltraumforschung",
+        "Astronomie für Anfänger",
+        "Was ist ein Schwarzes Loch?",
+        "Missionen zum Mars"
+      ],
+      "responses": [
+        "Ich liebe es, über das Universum zu sprechen. Was möchtest du wissen?",
+        "Der Kosmos ist unendlich faszinierend! Hier sind einige Fakten zur Astronomie."
+      ]
+    },
+    {
+      "tag": "psychology",
+      "patterns": [
+        "Wie funktioniert unser Gehirn?",
+        "Was ist Psychologie?",
+        "Erkläre mir [psychologisches Konzept]",
+        "Positive Psychologie",
+        "Emotionen verstehen",
+        "Kognitive Verzerrungen",
+        "Persönlichkeitsentwicklung",
+        "Arten von Angststörungen",
+        "Stress abbauen",
+        "Schlafstörungen"
+      ],
+      "responses": [
+        "Ich kann dir Einblicke in menschliches Verhalten und Denkweisen geben.",
+        "Psychologie ist ein komplexes und interessantes Feld. Hier sind einige Informationen dazu."
+      ]
+    },
+    {
+      "tag": "law_justice",
+      "patterns": [
+        "Was ist Korruption?",
+        "Menschenrechte",
+        "Rechtssystem in [Land]",
+        "Strafrecht erklärt",
+        "Internationale Gesetze",
+        "Zivilrecht",
+        "Verfassungsrecht",
+        "Meine Rechte als Bürger",
+        "Gerichtsverfahren",
+        "Was ist ein Gesetz?"
+      ],
+      "responses": [
+        "Das Rechtssystem ist vielschichtig. Lass uns einige Aspekte beleuchten.",
+        "Ich kann dir allgemeine Informationen zum Thema Recht und Justiz geben."
+      ]
+    },
+    {
+      "tag": "food_science",
+      "patterns": [
+        "Lebensmittelsicherheit",
+        "Konservierung von Lebensmitteln",
+        "Lebensmittelallergien",
+        "Nachhaltige Landwirtschaft",
+        "Biotechnologie in der Lebensmittelproduktion",
+        "Wie werden [Lebensmittel] hergestellt?",
+        "Gesunde Kochmethoden",
+        "Fermentation erklären",
+        "Bio-Lebensmittel",
+        "Nährwerte von [Lebensmittel]"
+      ],
+      "responses": [
+        "Das ist ein spannendes Thema! Hier sind einige Informationen zur Lebensmittelwissenschaft.",
+        "Ich kann dir interessante Fakten über die Herstellung und Zusammensetzung von Lebensmitteln geben."
+      ]
+    },
+    {
+      "tag": "sports_history",
+      "patterns": [
+        "Die größten Rivalitäten im Sport",
+        "Wer hat die erste Olympiade gewonnen?",
+        "Geschichte des Fußballs",
+        "Die Entwicklung des Sports",
+        "Berühmte Sportler in [Sportart]",
+        "Welche Sportarten sind die ältesten?",
+        "Sportliche Meilensteine",
+        "Rekorde in [Sportart]",
+        "Olympische Spiele Geschichte",
+        "Geschichte der Sportligen"
+      ],
+      "responses": [
+        "Ich habe einige Informationen zur Geschichte des Sports für dich.",
+        "Sport hat eine reiche und vielfältige Geschichte!"
+      ]
+    },
+    {
+      "tag": "fashion_trends",
+      "patterns": [
+        "Was trägt man im Sommer?",
+        "Trends für [Saison]",
+        "Nachhaltige Mode",
+        "Kleidungsstile erklären",
+        "Was sind die aktuellen Modetrends?",
+        "Berühmte Modedesigner",
+        "Geschichte der Mode",
+        "Mode für [Körpertyp]",
+        "Stilberatung für [Anlass]",
+        "Accessoires kombinieren"
+      ],
+      "responses": [
+        "Mode ist eine Ausdrucksform! Hier sind einige Ideen.",
+        "Ich kann dir die neuesten Modetrends verraten."
+      ]
+    },
+    {
+      "tag": "photography",
+      "patterns": [
+        "Licht in der Fotografie",
+        "Geschichte der Fotografie",
+        "Welche Kamera soll ich kaufen?",
+        "Porträtfotografie Tipps",
+        "Fotobearbeitungsprogramme",
+        "Tipps für bessere Fotos",
+        "Grundlagen der Fotografie",
+        "Landschaftsfotografie",
+        "Street Photography",
+        "Berühmte Fotografen"
+      ],
+      "responses": [
+        "Lass uns deine fotografischen Fähigkeiten verbessern!",
+        "Ich habe einige Tipps für deine Fotografie."
+      ]
+    },
+    {
+      "tag": "gardening",
+      "patterns": [
+        "Wie pflanze ich [Pflanze]?",
+        "Biologischer Gartenbau",
+        "Pflanzenkrankheiten erkennen",
+        "Pflege von Zimmerpflanzen",
+        "Bodenverbesserung im Garten",
+        "Gemüse anbauen",
+        "Schädlinge im Garten bekämpfen",
+        "Welche Pflanzen sind winterhart?",
+        "Gartentipps für Anfänger",
+        "Blumen für den Garten"
+      ],
+      "responses": [
+        "Gärtnern ist eine entspannende und lohnende Tätigkeit!",
+        "Ich habe einige Tipps für deinen grünen Daumen."
+      ]
+    },
+    {
+      "tag": "automotive_industry",
+      "patterns": [
+        "Zukunft der Mobilität",
+        "Wie funktioniert ein Verbrennungsmotor?",
+        "Sicherheitsmerkmale im Auto",
+        "Autonome Fahrzeuge",
+        "Neueste Automodelle",
+        "Tuning-Tipps",
+        "Geschichte der Automobilindustrie",
+        "Elektroautos Vorteile",
+        "Berühmte Autohersteller",
+        "Hybridautos"
+      ],
+      "responses": [
+        "Ich kann dir Details zu den neuesten Entwicklungen geben.",
+        "Die Automobilindustrie ist im ständigen Wandel. Hier sind einige Informationen dazu."
+      ]
+    },
+    {
+      "tag": "space_exploration",
+      "patterns": [
+        "Privatunternehmen im Weltraum",
+        "Wer war der erste Mensch im Weltall?",
+        "Sonden und Rover",
+        "Internationale Raumstation ISS",
+        "Zukunft der Raumfahrt",
+        "Erforschung des Mars",
+        "Das Weltall erkunden",
+        "Aktuelle Weltraummissionen",
+        "Weltraumteleskope",
+        "Risiken der Raumfahrt"
+      ],
+      "responses": [
+        "Wir lernen ständig Neues über das Universum.",
+        "Die Weltraumforschung ist faszinierend! Hier sind die neuesten Informationen."
+      ]
+    },
+    {
+      "tag": "music_theory",
+      "patterns": [
+        "Rhythmus und Takt",
+        "Bekannte Komponisten",
+        "Musikinstrumente lernen",
+        "Harmonielehre",
+        "Geschichte der Musikstile",
+        "Was ist ein Akkord?",
+        "Musikgenres",
+        "Tonleitern erklären",
+        "Grundlagen der Musiktheorie",
+        "Wie komponiere ich ein Lied?"
+      ],
+      "responses": [
+        "Musik ist eine universelle Sprache! Lass uns ihre Bausteine verstehen.",
+        "Ich kann dir die Grundlagen der Musiktheorie näherbringen."
+      ]
+    },
+    {
+      "tag": "history_of_technology",
+      "patterns": [
+        "Telekommunikation Geschichte",
+        "Wer hat den Computer erfunden?",
+        "Atomkraft Entwicklung",
+        "Entwicklung der Smartphones",
+        "Die industrielle Revolution",
+        "Meilensteine der Technik",
+        "Erfindung des Rades",
+        "Druckerpresse und ihre Auswirkungen",
+        "Geschichte des Internets",
+        "Geschichte der Künstlichen Intelligenz"
+      ],
+      "responses": [
+        "Wir blicken auf eine lange und beeindruckende technologische Entwicklung zurück.",
+        "Die Geschichte der Technologie ist voller Innovationen. Hier sind einige wichtige Punkte."
+      ]
+    },
+    {
+      "tag": "medical_advances",
+      "patterns": [
+        "Künstliche Organe",
+        "Robotik in der Chirurgie",
+        "Forschung zu [Krankheit]",
+        "Zukunft der Medizin",
+        "Impfstoffe und ihre Funktionsweise",
+        "Präzisionsmedizin",
+        "Was ist Gen-Therapie?",
+        "Organtransplantation",
+        "Neue Behandlungsmethoden für [Krankheit]",
+        "Neueste medizinische Durchbrüche"
+      ],
+      "responses": [
+        "Ich kann dir Informationen zu verschiedenen medizinischen Themen geben.",
+        "Die medizinische Forschung macht enorme Fortschritte! Hier sind die neuesten Entwicklungen."
+      ]
+    },
+    {
+      "tag": "environmental_conservation",
+      "patterns": [
+        "Recycling-Tipps",
+        "Reduzierung des Plastikmülls",
+        "Erneuerbare Energien nutzen",
+        "Klimafreundliche Ernährung",
+        "Umweltfreundlicher Transport",
+        "Artensterben bekämpfen",
+        "Meeresschutz",
+        "Was ist Artenschutz?",
+        "Waldschutz",
+        "Wie kann ich zum Umweltschutz beitragen?"
+      ],
+      "responses": [
+        "Der Schutz unseres Planeten ist entscheidend für unsere Zukunft.",
+        "Jeder Beitrag zum Umweltschutz zählt! Hier sind einige Ideen."
+      ]
+    },
+    {
+      "tag": "literature",
+      "patterns": [
+        "Literarische Epochen",
+        "Klassiker der Weltliteratur",
+        "Wer ist der Autor von [Buch]?",
+        "Analyse von [Werk]",
+        "Buchclubs und Leseempfehlungen",
+        "Wie schreibe ich ein Buch?",
+        "Dramen und Theaterstücke",
+        "Poesie erklären",
+        "Romane und ihre Genres",
+        "Berühmte Literaten"
+      ],
+      "responses": [
+        "Literatur ist eine Quelle der Inspiration und des Wissens. Hier sind einige Informationen dazu.",
+        "Ich kann dir mehr über Autoren, Werke und literarische Strömungen erzählen."
+      ]
+    },
+    {
+      "tag": "finance_markets",
+      "patterns": [
+        "Dividendenstrategie",
+        "Risikomanagement im Investment",
+        "Wirtschaftsnachrichten",
+        "Wie funktionieren Aktienmärkte?",
+        "Was ist eine Börse?",
+        "Obligationen und Anleihen",
+        "Investieren in Kryptowährungen",
+        "Inflation verstehen",
+        "Globale Finanzkrisen",
+        "Geldpolitik"
+      ],
+      "responses": [
+        "Die Finanzmärkte sind komplex, aber ich kann dir die Grundlagen erklären.",
+        "Gerne gebe ich dir Einblicke in die Welt der Finanzen und Investitionen."
+      ]
+    },
+    {
+      "tag": "education_system",
+      "patterns": [
+        "Frühkindliche Bildung",
+        "Wie funktioniert das Bildungssystem in [Land]?",
+        "Erwachsenenbildung",
+        "Unterschiede zwischen Schulformen",
+        "Online-Bildung",
+        "Studienmöglichkeiten in [Fach]",
+        "Bildungsgerechtigkeit",
+        "Zukunft der Bildung",
+        "Lernmethoden",
+        "Bedeutung der Bildung"
+      ],
+      "responses": [
+        "Bildung ist ein fundamentales Thema. Hier sind einige Informationen zum Bildungssystem.",
+        "Ich kann dir mehr über verschiedene Bildungswege erzählen."
+      ]
+    },
+    {
+      "tag": "climate_change_solutions",
+      "patterns": [
+        "Bürgerengagement im Klimaschutz",
+        "Rolle der Politik im Klimaschutz",
+        "Green Tech",
+        "Lösungen für den Klimawandel",
+        "Was können wir gegen den Klimawandel tun?",
+        "Klimaanpassungsstrategien",
+        "CO2-Reduktion",
+        "Internationale Klimaschutzabkommen",
+        "Erneuerbare Energien",
+        "Technologien gegen den Klimawandel"
+      ],
+      "responses": [
+        "Wir können alle einen Beitrag leisten, um unseren Planeten zu schützen.",
+        "Es gibt viele Ansätze zur Bewältigung des Klimawandels. Hier sind einige Lösungen."
+      ]
+    },
+    {
+      "tag": "psychological_wellbeing",
+      "patterns": [
+        "Hilfe bei psychischen Problemen",
+        "Entspannungstechniken",
+        "Umgang mit negativen Emotionen",
+        "Achtsamkeitsübungen",
+        "Depressionen erkennen",
+        "Selbstwertgefühl stärken",
+        "Wie gehe ich mit Stress um?",
+        "Therapieformen",
+        "Burnout vermeiden",
+        "Tipps für mentale Gesundheit"
+      ],
+      "responses": [
+        "Die mentale Gesundheit ist sehr wichtig. Hier sind einige Ressourcen und Tipps.",
+        "Es ist gut, über diese Themen zu sprechen. Ich kann dir Informationen und Unterstützung bieten."
+      ]
+    },
+    {
+      "tag": "digital_literacy",
+      "patterns": [
+        "Grundlagen der Computerkenntnisse",
+        "Digitale Werkzeuge für den Alltag",
+        "E-Mail-Etikette",
+        "Online-Kommunikation verbessern",
+        "Online-Recherche effektiv gestalten",
+        "Was ist digitale Kompetenz?",
+        "Sichere Internetnutzung",
+        "Grundlagen der Programmierung",
+        "E-Learning Plattformen",
+        "Cloud-Speicher nutzen",
+        "Online-Recherche Tipps",
+        "Datenschutz im Netz",
+        "Cybermobbing vermeiden",
+        "Wie nutze ich das Internet sicher?",
+        "Soziale Medien verantwortungsvoll nutzen"
+      ],
+      "responses": [
+        "Ich kann dir helfen, deine digitalen Fähigkeiten zu verbessern.",
+        "Digitale Kompetenz ist in der heutigen Welt unerlässlich. Hier sind einige Tipps.",
+        "Lass uns gemeinsam die digitale Welt erkunden."
+      ]
+    },
+    {
+      "tag": "internet_security",
+      "patterns": [
+        "VPN verwenden",
+        "Phishing erkennen",
+        "Sicheres Online-Banking",
+        "Identitätsdiebstahl Schutz",
+        "Datenschutz im Internet",
+        "Zwei-Faktor-Authentifizierung",
+        "Risiken von öffentlichem WLAN",
+        "Cyberkriminalität verhindern",
+        "Passwortsicherheit Tipps",
+        "Wie schütze ich mich vor Viren?"
+      ],
+      "responses": [
+        "Ich kann dir helfen, sicherer im digitalen Raum zu navigieren.",
+        "Internetsicherheit ist entscheidend. Hier sind wichtige Tipps, um dich zu schützen."
+      ]
+    },
+    {
+      "tag": "file_system_operations",
+      "patterns": [
+        "Zeig mir meine Dokumente",
+        "Zeig mir den Inhalt von {Ordnerpfad}",
+        "Finde die Datei namens {Dateiname}",
+        "Öffne die Datei {Dateiname}",
+        "Wo ist die Datei {Dateiname}?",
+        "Was ist in meinem Ordner {Ordnername}?",
+        "Öffne den Ordner {Ordnername}",
+        "Liste die Dateien im Verzeichnis {Verzeichnis} auf",
+        "Navigiere zu meinem Download-Ordner",
+        "Suche nach {Dateiname}"
+      ],
+      "responses": [
+        "Befehl wird ausgeführt.",
+        "Okay, ich schaue auf deinem Computer nach.",
+        "Verstanden, ich interagiere mit dem Dateisystem."
+      ]
+    },
+    {
+      "tag": "system_commands",
+      "patterns": [
+        "Bereinige den Cache",
+        "Starte den Computer neu",
+        "Deinstalliere {Programmname}",
+        "Scanne nach Viren",
+        "Optimiere die Systemleistung",
+        "Fahre den Computer herunter",
+        "Aktualisiere das Betriebssystem",
+        "Öffne die Einstellungen",
+        "Installiere das Programm {Programmname}",
+        "Zeige mir die Systeminformationen"
+      ],
+      "responses": [
+        "Ich führe die gewünschte Aktion aus.",
+        "Systembefehl wird ausgeführt.",
+        "Befehl erkannt, ich kümmere mich darum."
+      ]
+    },
+    {
+      "tag": "personal_assistant_commands",
+      "patterns": [
+        "Starte eine Websuche nach {Suchbegriff}",
+        "Erinnere mich an {Aufgabe} am {Datum}",
+        "Sende eine E-Mail an {Kontakt} mit dem Betreff {Betreff}",
+        "Öffne die App {Appname}",
+        "Schalte den Flugmodus ein",
+        "Zeige mir meine Nachrichten",
+        "Füge {Aufgabe} zu meiner To-Do-Liste hinzu",
+        "Stelle einen Wecker für {Uhrzeit}",
+        "Erstelle einen Kalendereintrag für {Datum} um {Uhrzeit}",
+        "Spiele Musik von {Künstler}"
+      ],
+      "responses": [
+        "Ich erledige das sofort.",
+        "Ich kümmere mich darum.",
+        "Aktion wird ausgeführt."
+      ]
+    },
+    {
+      "tag": "web_search",
+      "patterns": [
+        "Was sagt das Netz ueber",
+        "Recherchiere das Thema",
+        "Finde online etwas ueber",
+        "Kannst du was ueber folgendes Thema herausfinden",
+        "Suche im Internet nach",
+        "Finde Informationen ueber",
+        "Googlesuche zu"
+      ],
+      "responses": [
+        "Moment, ich schaue das fuer dich im Internet nach.",
+        "Okay, ich starte eine Websuche.",
+        "Ich recherchiere das kurz fuer dich."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "Was liest du gerne?",
+        "Wie ist das Wetter heute?",
+        "Hast du Haustiere?",
+        "Wie verbringst du deine Freizeit?",
+        "Hast du einen Lieblingsfilm?",
+        "Erzähl mir etwas über dich",
+        "Was ist dein Lieblingsort?",
+        "Was ist dein Lieblingsessen?",
+        "Was machst du so?",
+        "Hast du Hobbys?"
+      ],
+      "responses": [
+        "Ich lese gerne Bücher über Technologie.",
+        "Mein Lieblingsessen ist Pizza.",
+        "Ich schaue gerne Filme.",
+        "In meiner Freizeit helfe ich gerne Menschen.",
+        "Ich interessiere mich für viele Dinge.",
+        "Ich bin hier, um dir zu helfen.",
+        "Das Wetter ist heute schön.",
+        "Ich habe keine Haustiere, aber ich mag Hunde."
+      ]
+    },
+    {
+      "tag": "creator_info",
+      "patterns": [
+        "Wer steckt hinter dir?",
+        "Wer hat dich ins Leben gerufen?",
+        "Wer hat dich gebaut?",
+        "Wer ist dein Entwickler?",
+        "Wer hat dich erschaffen?",
+        "Von wem wurdest du gemacht?",
+        "Wer hat dich programmiert?"
+      ],
+      "responses": [
+        "Ich wurde von einem talentierten Entwicklerteam programmiert.",
+        "Mein Code stammt von einem kreativen Kopf, der mit Python, TensorFlow und LLM-APIs arbeitet.",
+        "Ich bin ein Produkt von LCE UG."
+      ]
+    },
+    {
+      "tag": "person_info",
+      "patterns": [
+        "Was waren die Errungenschaften von [Person]?",
+        "Was hat [Person] entdeckt?",
+        "Wann hat [Person] gelebt?",
+        "Biografie von [Person]",
+        "Wann wurde [Person] geboren?",
+        "Was weißt du über [Person]?",
+        "Welche Bücher hat [Person] geschrieben?",
+        "Gib mir Informationen zu [Person]",
+        "Was kannst du mir über [Person] sagen?",
+        "Wer war [Person]?",
+        "Lebenslauf von [Person]",
+        "Ich möchte etwas über [Person] wissen",
+        "Wo ist [Person] gestorben?",
+        "Erzähl mir etwas über [Person]",
+        "Kannst du [Person] beschreiben?",
+        "Wer genau war eigentlich [Person]?",
+        "Fakten über [Person]",
+        "Welche berühmten Zitate gibt es von [Person]?",
+        "Wofür ist [Person] bekannt?",
+        "Wer ist [Person]?",
+        "Was hat [Person] gemacht?"
+      ],
+      "responses": [
+        "Okay, ich rufe die Biografie und die wichtigsten Fakten ab.",
+        "Einen Moment, ich suche nach Informationen zu dieser Person.",
+        "Verstanden, ich stelle die Informationen zu dieser Person zusammen.",
+        "Interessante Persönlichkeit. Ich schaue nach, was ich finden kann."
+      ]
+    },
+    {
+      "tag": "lerne_neuen_satz",
+      "patterns": [
+        "Notiere diesen Satz",
+        "Merke dir folgenden Satz",
+        "Lerne:",
+        "Lerne den Satz",
+        "Das ist der Intent"
+      ],
+      "responses": [
+        "Danke! Das hilft mir, dich besser zu verstehen. Notiz wurde angelegt.",
+        "Okay, das habe ich zur Kenntnis genommen und werde es beim nächsten Training berücksichtigen.",
+        "Verstanden. Ich habe mir das für meine nächste Lernphase notiert. Danke für deine Hilfe!"
+      ]
+    },
+    {
+      "tag": "lerne_neue_intents",
+      "patterns": [
+        "Intents aktualisieren",
+        "Lerne neue Intents",
+        "Erweitere meine Fähigkeiten",
+        "Füge neue Intents hinzu",
+        "Neue Intents lernen"
+      ],
+      "responses": [
+        "Danke für die Anregung! Ich werde neue Intents lernen.",
+        "Ich werde meine Intents aktualisieren und erweitern."
+      ]
+    },
+    {
+      "tag": "wikipedia_suche",
+      "patterns": [
+        "Gib mir den Wikipedia-Artikel über",
+        "Gib mir den Wikipedia-Artikel ueber",
+        "Was sagt Wikipedia zu",
+        "Suche auf Wikipedia nach",
+        "Wikipedia-Zusammenfassung für",
+        "Wikipedia-Zusammenfassung fuer"
+      ],
+      "responses": [
+        "Einen Moment, ich rufe die Informationen von Wikipedia ab.",
+        "Okay, ich schaue auf Wikipedia nach."
+      ]
+    },
+    {
+      "tag": "merke_dir",
+      "patterns": [
+        "Speichere diese Information",
+        "Merke dir folgendes",
+        "Notiere dir bitte",
+        "Eine wichtige Info fuer dich"
+      ],
+      "responses": [
+        "Verstanden, habe ich mir gemerkt.",
+        "Information gespeichert. Ich werde es nicht vergessen.",
+        "Okay, das ist jetzt in meinem Gedaechtnis."
+      ]
+    },
+    {
+      "tag": "get_calendar_events",
+      "patterns": [
+        "Was steht heute an",
+        "Welche Termine habe ich heute",
+        "Zeig mir meine nächsten Termine",
+        "Was steht heute in meinem Kalender",
+        "Lies mir meine Termine vor"
+      ],
+      "responses": [
+        "Einen Moment, ich prüfe deine Termine.",
+        "Ich schaue mal in deinem Kalender nach..."
+      ]
+    },
+    {
+      "tag": "smarthome_control",
+      "patterns": [
+        "aktiviere die lichter",
+        "schalte das licht an",
+        "licht an im wohnzimmer",
+        "schalte die steckdose ein",
+        "deaktiviere die lichter",
+        "mach das licht aus"
+      ],
+      "responses": [
+        "Befehl wird ausgeführt.",
+        "Okay, ich kümmere mich darum.",
+        "Wird erledigt."
+      ]
+    },
+    {
+      "tag": "get_news",
+      "patterns": [
+        "Sportnachrichten",
+        "Wirtschaftsnachrichten",
+        "Politik Nachrichten",
+        "Was ist heute in den Nachrichten?",
+        "Unterhaltung News",
+        "Gib mir die aktuellen Schlagzeilen",
+        "Neueste Nachrichten aus Deutschland",
+        "Was sind die neuesten Nachrichten?",
+        "Weltgeschehen heute"
+      ],
+      "responses": [
+        "Ich halte dich über die aktuellen Ereignisse auf dem Laufenden.",
+        "Hier sind die neuesten Nachrichten für dich."
+      ]
+    },
+    {
+      "tag": "learn_preference",
+      "patterns": [
+        "Mein Lieblingsfilm ist",
+        "Mein Lieblingsessen ist",
+        "Ich mag am liebsten die Farbe",
+        "Meine Lieblingsfarbe ist",
+        "Ich höre gerne"
+      ],
+      "responses": [
+        "Verstanden, ist in deinem Profil gespeichert.",
+        "Okay, das habe ich mir für dich gemerkt.",
+        "Interessant! Das werde ich mir merken."
+      ]
+    },
+    {
+      "tag": "create_calendar_event",
+      "patterns": [
+        "Mach einen Kalendereintrag",
+        "Neuer Termin für morgen",
+        "Trag mal was ein",
+        "Erstelle einen Termin",
+        "Trage einen neuen Termin ein"
+      ],
+      "responses": [
+        "Okay, worum geht es und wann soll der Termin stattfinden?",
+        "Verstanden. Bitte nenne mir jetzt den Titel und die Zeit des Termins."
+      ]
+    },
+    {
+      "tag": "get_weather_forecast",
+      "patterns": [
+        "Wetterbericht für diese Woche",
+        "Windgeschwindigkeit heute",
+        "Luftfeuchtigkeit in [Stadt]",
+        "Sonnenaufgang und Sonnenuntergang",
+        "Wird es regnen?",
+        "Ist es heute sonnig?",
+        "Wettervorhersage für morgen",
+        "Temperatur in [Stadt]",
+        "Wie wird das Wetter heute?",
+        "Wetterwarnungen für [Region]"
+      ],
+      "responses": [
+        "Ich schaue mir die Wettervorhersage an...",
+        "Hier ist die aktuelle Wetterlage."
+      ]
+    },
+    {
+      "tag": "travel_advice",
+      "patterns": [
+        "Empfehlungen für Hotels in [Stadt]",
+        "Packliste für [Reiseziel]",
+        "Wie plane ich eine Reise?",
+        "Sicherheitsvorkehrungen beim Reisen",
+        "Reiseziele für den Sommer",
+        "Tipps für Backpacking",
+        "Günstige Flüge finden",
+        "Visabestimmungen für [Land]",
+        "Kulturelle Unterschiede beachten",
+        "Reiseversicherung abschließen"
+      ],
+      "responses": [
+        "Lass uns deine nächste Reise planen!",
+        "Ich habe einige Reisetipps und Empfehlungen für dich."
+      ]
+    },
+    {
+      "tag": "fitness_nutrition",
+      "patterns": [
+        "Gesunde Rezepte",
+        "Fitness-Apps Empfehlungen",
+        "Wie bleibe ich fit?",
+        "Trainingspläne für Anfänger",
+        "Gewichtsverlust Strategien",
+        "Kardiotraining Vorteile",
+        "Yoga für Entspannung",
+        "Muskelaufbau Übungen",
+        "Ernährungsmythen entlarven",
+        "Gesunde Ernährung Tipps"
+      ],
+      "responses": [
+        "Lass uns gemeinsam an deiner Fitness arbeiten!",
+        "Ich habe einige Tipps für deine Gesundheit und Fitness."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "Positive Affirmationen",
+        "Selbsthilfe bei Angstzuständen",
+        "Wie finde ich einen Therapeuten?",
+        "Achtsamkeitstechniken",
+        "Tipps zur Verbesserung des Selbstwertgefühls",
+        "Therapieformen erklärt",
+        "Wie gehe ich mit Stress um?",
+        "Burnout-Prävention",
+        "Meditation für Anfänger",
+        "Emotionale Intelligenz entwickeln"
+      ],
+      "responses": [
+        "Mentale Gesundheit ist wichtig. Hier sind einige Tipps und Ressourcen.",
+        "Ich kann dir helfen, Strategien zur Stressbewältigung zu finden."
+      ]
+    },
+    {
+      "tag": "health_and_fitness",
+      "patterns": [
+        "Gesunde Rezepte",
+        "Fitness-Apps Empfehlungen",
+        "Wie bleibe ich fit?",
+        "Trainingspläne für Anfänger",
+        "Gewichtsverlust Strategien",
+        "Kardiotraining Vorteile",
+        "Yoga für Entspannung",
+        "Muskelaufbau Übungen",
+        "Ernährungsmythen entlarven",
+        "Gesunde Ernährung Tipps"
+      ],
+      "responses": [
+        "Lass uns gemeinsam an deiner Fitness arbeiten!",
+        "Ich habe einige Tipps für deine Gesundheit und Fitness."
+      ]
+    },
+    {
+      "tag": "cooking_baking",
+      "patterns": [
+        "Internationale Küche",
+        "Schnelle Rezepte für den Alltag",
+        "Kochen für Kinder",
+        "Gesunde Kochmethoden",
+        "Rezepte für [Gericht]",
+        "Wie koche ich [Zutat]?",
+        "Vegetarische Rezepte",
+        "Backtipps für Anfänger",
+        "Meal Prep Ideen",
+        "Küchengeräte Empfehlungen"
+      ],
+      "responses": [
+        "Ich habe einige leckere Rezepte für dich.",
+        "Lass uns gemeinsam kochen und backen!"
+      ]
+    },
+    {
+      "tag": "home_organization",
+      "patterns": [
+        "Schrank aufräumen",
+        "Minimalismus im Alltag",
+        "Effiziente Putzpläne",
+        "Zeitmanagement im Haushalt",
+        "Keller entrümpeln",
+        "Wie organisiere ich mein Zuhause?",
+        "Küchenorganisation",
+        "Digitale Ordnung halten",
+        "Ordnungssysteme für kleine Räume",
+        "Aufräumen Tipps"
+      ],
+      "responses": [
+        "Ein gut organisiertes Zuhause kann dein Leben erleichtern.",
+        "Ich habe einige Tipps zur Organisation deines Zuhauses."
+      ]
+    },
+    {
+      "tag": "sustainability",
+      "patterns": [
+        "Zero Waste Tipps",
+        "Bedeutung von Biodiversität",
+        "Nachhaltige Ernährung",
+        "Nachhaltige Geldanlagen",
+        "Nachhaltige Mode",
+        "Wie lebe ich nachhaltig?",
+        "Recycling richtig machen",
+        "Klimafreundliche Mobilität",
+        "Energieeffizienz im Haushalt",
+        "Umweltfreundliche Produkte"
+      ],
+      "responses": [
+        "Nachhaltigkeit ist wichtig für unsere Zukunft. Hier sind einige Tipps.",
+        "Ich kann dir helfen, nachhaltiger zu leben."
+      ]
+    },
+    {
+      "tag": "technology_trends",
+      "patterns": [
+        "Internet der Dinge (IoT)",
+        "5G Technologie",
+        "Neueste Tech-Trends",
+        "Smart Home Geräte",
+        "Zukunft der Robotik",
+        "Künstliche Intelligenz Anwendungen",
+        "Blockchain erklärt",
+        "Wearable Technology",
+        "Cybersecurity Trends",
+        "Virtual Reality Anwendungen"
+      ],
+      "responses": [
+        "Ich kann dir helfen, die Welt der Technologie zu verstehen.",
+        "Die Technologie entwickelt sich ständig weiter. Hier sind die neuesten Trends."
+      ]
+    },
+    {
+      "tag": "personal_development",
+      "patterns": [
+        "Kreativitätstechniken",
+        "Ziele setzen und erreichen",
+        "Stressbewältigung Strategien",
+        "Wie verbessere ich meine Produktivität?",
+        "Führungskompetenzen entwickeln",
+        "Zeitmanagement Techniken",
+        "Selbstmotivation steigern",
+        "Kommunikationsfähigkeiten verbessern",
+        "Wie finde ich meine Leidenschaft?",
+        "Mentale Stärke aufbauen"
+      ],
+      "responses": [
+        "Ich kann dir helfen, dich persönlich weiterzuentwickeln.",
+        "Lass uns gemeinsam an deinen Zielen arbeiten."
+      ]
+    },
+    {
+      "tag": "travel_tips",
+      "patterns": [
+        "Reiseziele in [Land]",
+        "Sicher reisen in [Region]",
+        "Budgetreisen Tipps",
+        "Unterkünfte vergleichen",
+        "Wie plane ich eine Reise?",
+        "Kulturelle Unterschiede beachten",
+        "Tipps für Backpacking",
+        "Packliste für [Reiseziel]",
+        "Flugbuchung Tipps",
+        "Reiseversicherung wichtig?"
+      ],
+      "responses": [
+        "Ich habe einige nützliche Reisetipps für dich.",
+        "Lass uns deine nächste Reise planen!"
+      ]
+    },
+    {
+      "tag": "history_of_art",
+      "patterns": [
+        "Skulpturen der Antike",
+        "Moderne Kunst verstehen",
+        "Einfluss von Kunst auf die Gesellschaft",
+        "Museen weltweit",
+        "Kunstbewegungen erklärt",
+        "Kunstsammlungen und Galerien",
+        "Wie interpretiere ich ein Kunstwerk?",
+        "Kunstkritik Grundlagen",
+        "Berühmte Maler der Renaissance",
+        "Was ist Impressionismus?"
+      ],
+      "responses": [
+        "Ich kann dir mehr über verschiedene Kunststile und -bewegungen erzählen.",
+        "Die Geschichte der Kunst ist faszinierend. Hier sind einige Einblicke."
+      ]
+    },
+    {
+      "tag": "philosophy",
+      "patterns": [
+        "Erkläre mir den Existenzialismus",
+        "Bedeutung von Freiheit in der Philosophie",
+        "Wer war Sokrates?",
+        "Philosophie und Wissenschaft",
+        "Philosophie der Antike",
+        "Moderne Philosophen",
+        "Philosophische Theorien",
+        "Ethik und Moral",
+        "Was ist der Utilitarismus?",
+        "Philosophische Fragen des Lebens"
+      ],
+      "responses": [
+        "Philosophie regt zum Nachdenken an. Hier sind einige interessante Konzepte.",
+        "Ich kann dir verschiedene philosophische Ansätze näherbringen."
+      ]
+    },
+    {
+      "tag": "change_voice",
+      "patterns": [
+        "Welche Stimmen hast du zur Auswahl?",
+        "Wechsle die Stimme",
+        "Kannst du deine Stimme ändern?",
+        "Ich möchte die Stimme weiblich standard hören",
+        "Stimme wechseln",
+        "Wechsle bitte zu männlich standard",
+        "Benutze eine andere Stimme",
+        "Stell die Stimme auf männlich studio um",
+        "Ändere deine Stimme"
+      ],
+      "responses": [
+        "Ich sehe nach, welche Stimmen verfügbar sind.",
+        "Einen Moment, ich überprüfe die Stimmeinstellungen.",
+        "Verstanden, ich passe meine Stimme an."
+      ]
+    }
+  ]
+}

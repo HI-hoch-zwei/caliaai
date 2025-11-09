@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+# // -- Okami Digital Fingerprint -- //
+# This code is the intellectual property of its creator and is protected under patent (Patent-No. 30 2025 240 538.7).
+# Unauthorized use, reproduction, or distribution is strictly prohibited.
+# Project: C.A.L.I.A AI.
+
+
+# --- Python Virtual Environments ---
+# Ignoriert den kompletten venv-Ordner, egal wo er liegt
+venv/
+.venv/
+env/
+
+# --- Geheime Anmeldedateien & API-Schlüssel ---
+# NIEMALS HOCHLADEN!
+.env
+gcloud_credentials.json
+credentials.json
+token.json
+
+# --- Python Cache & Laufzeitdateien ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Lokale Datenbank-Dateien ---
+# Ignoriert die MongoDB-Daten, wie von dir gewünscht
+data/db/
+# Ignoriert lokale SQLite-Datenbanken (falls du sie nutzt)
+*.db
+
+# --- Log-Dateien ---
+*.log
+*.log.*
+
+# --- Editor-spezifische Dateien ---
+.vscode/
+.idea/
+.vs/
+
+# --- Build- & Binär-Ordner ---
+# (Waren fälschlicherweise als Kommentare drin)
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# --- Windows-spezifische Editor-Dateien ---
+*.suo
+*.user

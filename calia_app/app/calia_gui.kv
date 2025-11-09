@@ -1,0 +1,108 @@
+# -*- coding: utf-8 -*-
+# // -- Peter Luebke Digital Fingerprint -- //
+# This code is the intellectual property of its creator and is protected under patent (Patent-No. 30 2025 240 538.7).
+# Unauthorized use, reproduction, or distribution is strictly prohibited.
+# Project: C.A.L.I.A AI.
+#:kivy 2.1.0
+
+# --- ÄNDERUNG: Importiere die NEUE Welle ---
+#:import ShaderBackground core.gui_widgets.ShaderBackground
+#:import EqualizerWaveform core.gui_widgets.EqualizerWaveform
+#:import NexusCore core.gui_widgets.NexusCore
+#:import SciFiPanel core.gui_widgets.SciFiPanel
+#:import SciFiLabel core.gui_widgets.SciFiLabel
+
+<CaliaGUI>:
+    # 1. DER SHADER-HINTERGRUND (Unverändert)
+    ShaderBackground:
+        id: shader_bg
+        nexus_color: root.nexus_color 
+
+    # 2. Der Nexus-Kern (Ohne Logo)
+    NexusCore:
+        id: nexus_core
+        pos_hint: {'center_x': 0.3, 'center_y': 0.65}
+        size_hint: None, None
+        size: 400, 400
+        nexus_color: root.nexus_color
+        nexus_rotation_angle: root.nexus_rotation_angle
+
+    # 3. DIE NEUE EQUALIZER-WELLE (ersetzt ParticleWaveform)
+    # Sie hat die gleiche ID 'main_wave', damit Calia.py sie findet!
+    # Sie ist INNEN im Nexus positioniert.
+    EqualizerWaveform:
+        id: main_wave
+        pos_hint: {'center_x': 0.3, 'center_y': 0.65} # Gleiche Mitte wie Nexus
+        size_hint: None, None
+        size: 250, 150 # Kleiner, damit sie IN die Ringe passt
+        nexus_color: root.nexus_color
+
+    # 4. Das Status-Label (Unverändert)
+    SciFiLabel:
+        id: status_label
+        text: root.status_text
+        nexus_color: root.nexus_color
+        pos_hint: {'center_x': 0.3, 'top': 0.35}
+        size_hint: 0.45, 0.1 
+        font_name: 'assets/fonts/Orbitron-Bold.ttf'
+        font_size: '20sp'
+        halign: 'center'
+        valign: 'top'
+        padding: (20, 10)
+
+    # 5. DAS NEUE, EIGENSTÄNDIGE LOGO
+    # Positioniert unter dem Status-Label, wie von dir skizziert
+    Image:
+        source: 'assets/images/C.A.L.I.A..png'
+        pos_hint: {'center_x': 0.3, 'top': 0.23} # Direkt unter dem Status-Label
+        size_hint: None, None
+        size: 150, 150
+        color: 1, 1, 1, 0.8 # Leicht transparent
+
+    # 6. Das Daten-Panel (Unverändert)
+    SciFiPanel:
+        id: data_panel
+        orientation: 'vertical'
+        nexus_color: root.nexus_color
+        background_opacity: 0.08
+        pos_hint: {'right': 0.98, 'y': 0.15} 
+        size_hint: 0.42, 0.75
+        spacing: 5
+        padding: 8
+
+        SciFiLabel:
+            text: 'C.A.L.I.A. // DATASTREAM' 
+            nexus_color: root.nexus_color
+            size_hint_y: None
+            height: '40dp'
+            font_name: 'assets/fonts/Orbitron-Bold.ttf'
+            font_size: '18sp'
+
+        SciFiLabel:
+            id: context_label
+            text: 'LOCATION: UNKNOWN // TIME: 00:00:00' 
+            nexus_color: root.nexus_color
+            size_hint_y: None
+            height: '30dp'
+            font_name: 'assets/fonts/ShareTechMono-Regular.ttf'
+            font_size: '16sp'
+            color: 1, 1, 1, 0.7
+
+        ScrollView: 
+            id: response_scroller
+            size_hint_y: 1
+            do_scroll_x: False
+            do_scroll_y: True
+            bar_width: 2
+
+            Label:
+                id: response_label 
+                size_hint_y: None
+                height: self.texture_size[1]
+                font_name: 'assets/fonts/segoeuimi.ttf' 
+                font_size: '18sp'
+                text_size: self.width * 0.95, None
+                halign: 'left'
+                valign: 'top'
+                padding: (10, 10) 
+                color: 1, 1, 1, 0.9

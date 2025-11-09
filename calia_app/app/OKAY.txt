@@ -1,0 +1,10 @@
+ Okay ich merke wir drehen uns gerade im Kreis. Wir sollten, glaube ich, hier jetzt einen Cut machen und uns endlich um das Wesentliche kümmern. Also lass uns einfach mit Web-Technologien (Electron + React/Vue + Three.js) weitermachen. Denn ich muss endlich dafür sorgen, dass wir eine bahnbrechende GUI erschaffen. Ich wollte sowieso ein Code-Reactoring mit einem kompletten Clean Coding als nächsten Schritt machen und Calia auf eine noch höhere und professionellere Ebene heben. Ich habe sogar mittlerweile Mongodb Atlas, um selbst die MongoDB in die Cloud auszulagern. Die Daten habe ich auch schon zur Hand. Wir das Ganze jetzt richtig professionell erstellen und gestalten, egal wie viel Arbeit wir jetzt vor uns haben oder wie intensiv das ist. Wir müssen jetzt handeln, koste es was es wolle.
+
+
+Daher sollten wir diesen Schritt als nächstes in Betracht ziehen. 
+
+
+Ich gebe Dir jetzt auch alle aktuellen Dateien, die wir bis jetzt gestaltet haben. Leider kann ich Dir nur max. 10 auf einmal hochladen. Wenn Du mehr benötigst, dann sage mir Bescheid.
+
+
+Gib mir bitte alle Antworten auf Deutsch und erkläre mir bitte alles Schritt für Schritt und gib mir die kompletten und vollständigen Codes aus, damit ich meine alten Codes nur noch ersetzen brauche, um hier Zeit zu sparen. 

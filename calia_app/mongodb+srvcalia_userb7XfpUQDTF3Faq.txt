@@ -1,0 +1,1 @@
+mongodb+srv://calia_user:b7XfpUQDTF3FaqJQ@caliaai.59sqtwh.mongodb.net
