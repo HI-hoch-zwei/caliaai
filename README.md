@@ -1,2 +1,2 @@
 # caliaai
-Calia AI core
+Calia AI app core
